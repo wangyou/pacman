@@ -3,37 +3,37 @@
 
   <!-- Main remote for the PAC project -->
   <remote  name="pac"
-           fetch="https://github.com/PAC-man"
+           fetch="http://github.com/PAC-man"
            review="review.pac-rom.com" />
 
   <!-- Main remote for Android -->
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="http://android.googlesource.com"
            review="android-review.googlesource.com" />
 
   <!-- Generic Github remote -->
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="http://github.com" />
 
   <!-- Specific remotes for third party projects -->
   <remote  name="aokp"
-           fetch="https://github.com/AOKP"
+           fetch="http://github.com/AOKP"
            review="gerrit.aokp.co" />
 
   <remote  name="chaos"
-           fetch="https://github.com/ChameleonOS"
+           fetch="http://github.com/ChameleonOS"
            review="review.chameleonos.org" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod"
+           fetch="http://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
 
   <remote  name="omnirom"
-           fetch="https://github.com/omnirom"
+           fetch="http://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
   <remote  name="pa"
-           fetch="https://github.com/AOSPA"
+           fetch="http://github.com/AOSPA"
            review="gerrit.paranoidandroid.co" />
 
   <default revision="refs/heads/cm-11.0"
@@ -132,7 +132,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
-  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
+  <!--project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" /-->
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
