@@ -481,4 +481,8 @@
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" revision="pac-4.4" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
+  <project name="MO4/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="cm-11.0" />
+  <project name="MO4/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="cm-11.0" />
+  <project name="MO4/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="cm-11.0" />
+  <project name="MO4/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
 </manifest>
