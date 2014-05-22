@@ -433,7 +433,7 @@
 
   <!-- PAC -->
   <project path="bionic" name="android_bionic" groups="pdk" remote="pac" revision="pac-4.4" />
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" remote="cm" revision="cm-11.0" >
+  <project path="build" name="android_build" groups="pdk" remote="cm" revision="cm-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="development" name="android_development" remote="pac" revision="pac-4.4" />
