@@ -481,4 +481,4 @@
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" revision="pac-4.4" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
-manifest>
+</manifest>
