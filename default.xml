@@ -548,7 +548,7 @@
   <project path="device/qcom/common" name="android_device_qcom_common" remote="ss" />
   <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" remote="ss" />
   <project path="kernel/oneplus/msm8974" name="android_kernel_oneplus_msm8974" remote="ss" />
-  <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="pic" />
+  <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="pic" revision="cm-13.0" />
 <!-- END SPLIT-SCREEN -->
 
 </manifest>
